@@ -1,0 +1,1 @@
+{"name":"Local: NextGreaterEle","url":"d:\\DSA\\Stack\\NextGreaterEle.cpp","tests":[{"id":1616406391996,"input":"5\n5\n3\n8\n-2\n7","output":"8\n8\n-1\n7\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA\\Stack\\NextGreaterEle.cpp","group":"local","local":true}

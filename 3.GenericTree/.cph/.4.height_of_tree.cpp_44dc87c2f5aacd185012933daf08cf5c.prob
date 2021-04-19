@@ -1,0 +1,1 @@
+{"name":"Local: 4","url":"d:\\DSA (pepcoding)\\3.GenericTree\\4.height_of_tree.cpp","tests":[{"id":1617268639270,"input":"12\n10 20 -1 30 50 -1 60 -1 -1 40 -1 -1","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA (pepcoding)\\3.GenericTree\\4.height_of_tree.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: maxOfTree","url":"d:\\DSA (pepcoding)\\3.GenericTree\\maxOfTree.cpp","tests":[{"id":1617267420020,"input":"12\n10 20 -1 30 50 -1 60 -1 -1 40 -1 -1","output":"60"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA (pepcoding)\\3.GenericTree\\maxOfTree.cpp","group":"local","local":true}
