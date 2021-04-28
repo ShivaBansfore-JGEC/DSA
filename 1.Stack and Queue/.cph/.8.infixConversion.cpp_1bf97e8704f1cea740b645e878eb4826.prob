@@ -1,0 +1,1 @@
+{"name":"Local: 8","url":"d:\\my_coding_folder\\4.DSA (pepcoding)\\1.Stack and Queue\\8.infixConversion.cpp","tests":[{"id":1619546116649,"input":"a*(b-c+d)/e","output":"abc-d+*e/\n/*a+-bcde"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\my_coding_folder\\4.DSA (pepcoding)\\1.Stack and Queue\\8.infixConversion.cpp","group":"local","local":true}
