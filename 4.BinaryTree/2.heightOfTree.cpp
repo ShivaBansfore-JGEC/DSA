@@ -14,26 +14,43 @@ struct Node{
 };
 
 
-void LevelOrdertraversal(Node *root){
-    queue<Node*> q;
-    q.push(root);
-
-    while(q.size()>0){
-        int cnt=q.size();
-        for(int i=0;i<cnt;i++){
-            Node *temp=q.front();
-            q.pop();
-            cout<<temp->data<<" ";
-            if(temp->left!=NULL){
-                q.push(temp->left);
-            }
-            if(temp->right!=NULL){
-                q.push(temp->right);
-            }
-        }
-        cout<<endl;
+int size(Node *node){
+    if(node==NULL){
+        return 0;
     }
+    return size(node->left)+size(node->right)+1;
 }
+
+int height(Node *node){
+    if(node==NULL){
+        return -1;
+    }
+
+    return max(height(node->left),height(node->right))+1;
+}
+
+int sum(Node *node){
+    if(node==NULL){
+        return 0;
+    }
+
+    int lsum=sum(node->left);
+    int rsum=sum(node->right);
+    return lsum+rsum+node->data;
+}
+
+int maxi(Node *node){
+    if(node==NULL){
+        return INT_MIN;
+    }
+
+    int lmax=maxi(node->left);
+    int rmax=maxi(node->right);
+
+    return max(max(lmax,rmax),node->data);
+}
+
+
 
 int main(){
     int n;
@@ -85,8 +102,11 @@ int main(){
 
     }
 
+    cout<<size(root)<<endl;
+    cout<<sum(root)<<endl;
+    cout<<maxi(root)<<endl;
+    cout<<height(root)<<endl;
 
-LevelOrdertraversal(root);
 
 
     return 0;
