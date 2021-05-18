@@ -1,0 +1,1 @@
+{"name":"Local: 9","url":"d:\\my_coding_folder\\4.DSA (pepcoding)\\4.BinaryTree\\9.isBalance.cpp","tests":[{"id":1621334875228,"input":"21\n50 25 12 n n 37 30 n n 51 n n 75 62 60 n n 70 n n n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\my_coding_folder\\4.DSA (pepcoding)\\4.BinaryTree\\9.isBalance.cpp","group":"local","local":true}
