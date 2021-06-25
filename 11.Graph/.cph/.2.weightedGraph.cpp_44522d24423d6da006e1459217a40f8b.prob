@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"d:\\my_coding_folder\\4.DSA (pepcoding)\\11.Graph\\2.weightedGraph.cpp","tests":[{"id":1624516155442,"input":"5 6\n1 4 10\n1 5 20\n2 4 90\n3 1 70\n3 5 60\n2 3 120","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\my_coding_folder\\4.DSA (pepcoding)\\11.Graph\\2.weightedGraph.cpp","group":"local","local":true}
